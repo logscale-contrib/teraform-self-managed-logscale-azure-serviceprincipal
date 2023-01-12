@@ -13,7 +13,7 @@ resource "azuread_service_principal" "app" {
 
 
 resource "time_rotating" "app" {
-  rotation_days = 7
+  rotation_years = 2
 }
 
 resource "azuread_service_principal_password" "app" {
